@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(/image/medical-cross-and-health-pharmacy-logo-vector-template.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    transform: translateX(100px);
+    flex-wrap: wrap;
+    /* background-color: lightgreen; */
+}
+.nav-log{
+    height: 134px;
+    margin-left: -9%;
+    padding-top: 8%;
+    display:flex ;
+    transform: translatey(-700px);
+    
+}
+.nav-link a{
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+    /* transform: translateY(-600); */
+    transform: translateY(-655px)
+}

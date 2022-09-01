@@ -1,0 +1,41 @@
+/* .container{
+    background-color:red;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: lightgreen;
+}
+.container .navi {
+    display: flex;
+    height: 10vh;
+    
+}
+.container .navi .logo a{
+    display: flex;
+    text-decoration: none;
+    text-transform: lowercase ;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    align-items: 80px;
+    align-items: center;
+   
+}    
+div{
+    margin: 2px;
+    padding: 8px;
+    /* box-sizing: border-box; */
+    border-radius: 2rem 2rem;
+}
+.nav.search1 {
+    margin: 0;
+    padding: 0;
+    border-radius: 2rem 2rem;
+    box-sizing: border-box;
+}
+
