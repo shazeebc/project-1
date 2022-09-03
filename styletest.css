@@ -16,7 +16,7 @@
 
 .container .nav1 .logo {
     display: flex;
-    height: 120px;
+    height: 117px;
 }
 
 
@@ -69,6 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 
@@ -104,13 +105,34 @@
 }
 
 .cate {
-    margin-left: 140px;
+    /* margin-left: 5px; */
+    background-color: darkgray;
+    height: 96px;
 }
+
 
 .cate .img1 a {
     font-weight: bolder;
     text-decoration: none;
     color: black;
-    transform: translateX(10px);
-    display: list-item;
+    transform: translate(-5rem, 10px);
+    cursor: pointer;
+    
+}
+.cate .img1{
+    display: flex;
+    justify-content:space-around;
+    transform: translate(40px);
+}
+.footer{
+    text-align: center;
+    background-color: lightgreen;
+  
+}
+.footer a{
+    text-decoration: none;
+}
+@media(max-width:700) {
+    
+    
 }
