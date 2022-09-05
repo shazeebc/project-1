@@ -1,12 +1,21 @@
+
+
+@import url("https://fonts.googleapis.com/css?? family-Poppins&display-swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
 .container {
-    background-color: lightgreen;
+    background-color: #173c96;
+}
+.section{
+    height: 100vh;
+    width: 100%;
 }
 
 .container .nav1 {
@@ -17,19 +26,25 @@
 .container .nav1 .logo {
     display: flex;
     height: 117px;
+    width: 125px;
+    background-color:aliceblue;
 }
 
 
 .container .nav1 .link a {
     gap: 10%;
-    color: black;
+    color:  whitesmoke;
     text-decoration: none;
     font-weight: bolder;
     text-transform: capitalize;
     padding-top: 20px;
     justify-content: space-between;
+}
+/* .container .nav1 .link .hover1 :hover{
+  background-color: darksalmon;} */
 
-
+/* .container .nav1 .link:hover{
+    background-color:brown; *
 }
 
 /* .container .nav1 .link {
@@ -43,6 +58,7 @@
     padding-left: 25px;
     padding-top: 19px;
     text-align: center;
+    color: aliceblue;
 }
 
 .container .nav1 .search{
@@ -69,7 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    cursor: pointer;
+    cursor:cell;
 }
 
 
@@ -102,12 +118,19 @@
 .img {
     background-image: url(/image/pharmacy-background.webp);
     display: flex;
+
 }
 
 .cate {
     /* margin-left: 5px; */
-    background-color: darkgray;
-    height: 96px;
+    background-color:aliceblue;
+    height: 130px;
+    text-align: center;
+    /* align-items: center; */
+    
+}
+.cate1{
+    padding:10px 10px
 }
 
 
@@ -116,7 +139,7 @@
     text-decoration: none;
     color: black;
     transform: translate(-5rem, 10px);
-    cursor: pointer;
+    cursor:cell;
     
 }
 .cate .img1{
@@ -126,13 +149,98 @@
 }
 .footer{
     text-align: center;
-    background-color: lightgreen;
-  
+    background-color: #173c96;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem;
+    /* height: -webkit-fill-available ; */
+    
 }
 .footer a{
     text-decoration: none;
+    color: white;
 }
-@media(max-width:700) {
+.icon{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 20PX 15PX;
+    font-weight: bolder;
+    color: black;
+
+}
+
+
+
+/* @media(max-width:700px) {
+    .container .nav1{
+        height: 156px;
+    }
+    .container .nav1 .logo {
+        height: 156px;
+    }
+     */
+/* }-------------------- */
+/* .wrapper {
+    display: inline-flex;
+    list-style: none;
+    }
+.wrapper.icon {    
+    position: relative;
+    background: #fff; border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex; justify-content: center;
+    align-items: center; flex-direction: column;
+    box-shadow:  10px 10px rgba(0, 0, 0, 8.1);
+    cursor: pointer;
+    transition: all 0.25 cubic-bezter(0.68, -0.55,
+    0.265, 1.55);}
     
     
+.wrapper .tooltip {
+     position: absolute;
+     top: 0;
+    font-size: 14px;
+    background: #FFF; 
+    color: #ffffff;
+    padding: 5px 8px; 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55,
+    0.265, 1.55);
+    }
+
+.wrapper .tooltip::before{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.wrapper .icon:hover .tooltip{
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.wrapper .icon:hover span,
+.wrapper.icon:hover.tooltip{
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
+}
+.wrapper .facebook :hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before{
+background: #1877F2;
+color: #ffffff;
+}     */
