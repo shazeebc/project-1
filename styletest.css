@@ -88,7 +88,6 @@
     cursor:cell;
 }
 
-
 /* .container .nav1 .search {
     padding-left: 51px;
     width: 0%;
@@ -124,13 +123,18 @@
 .cate {
     /* margin-left: 5px; */
     background-color:aliceblue;
-    height: 130px;
+    height: 100px;
     text-align: center;
     /* align-items: center; */
     
 }
 .cate1{
-    padding:10px 10px
+    padding: 14px 14px;
+}
+.h3{
+    color: red;
+    padding-top: 10px;
+    
 }
 
 
@@ -138,7 +142,7 @@
     font-weight: bolder;
     text-decoration: none;
     color: black;
-    transform: translate(-5rem, 10px);
+    transform: translate(-5rem, 15px);
     cursor:cell;
     
 }
